@@ -1,0 +1,40 @@
+body {
+    background-color: #121212; /* Dark background */
+    color: #ffffff; /* Light text color */
+}
+
+h1, h2, h3, p, li {
+    color: #ffffff; /* Ensures text remains visible */
+}
+
+.bg-body-secondary {
+    background-color: #222222 !important; /* Adjusts secondary backgrounds for visibility */
+}
+
+.text-body-emphasis {
+    color: #f8f9fa !important; /* Light text for emphasis */
+}
+
+.project-link {
+    color: #0dcaf0; /* Bright link color for visibility */
+    text-decoration: none;
+}
+
+.project-link:hover {
+    text-decoration: underline;
+}
+
+footer {
+    background-color:#121212;
+    color: #ffffff;
+}
+img{
+    height:301px;
+    width:770px;
+    border-radius:50%;
+}
+.img-fluid {
+    max-width: 65%;
+    height: 218px;
+}
+
